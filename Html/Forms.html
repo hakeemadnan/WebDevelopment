@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/action">
+        <div>
+            <label for="user">
+                Username : 
+            </label>
+            <input type="text" name="user" id="user" placeholder="Enter Your Username">
+        </div>  
+        <div>
+            <label for="pass">
+                Password : 
+            </label>
+            <input type="password" name="pass" id="pass" placeholder="Enter Password">
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+    <form action="https://www.youtube.com/results">
+        <label for="search">
+            Search in Youtube
+        </label>
+        <input type="text" id="search" placeholder="Search here" name="search_query" >
+            <button type="submit">Search</button>
+    </form>
+    <form action="https://www.google.com/search"> <!--https://www.google.com/search-->
+        <label for="gsearch">
+            Search in google : 
+        </label><input type="text" id="gsearch" placeholder="search here" name="q">
+        <button type="submit">Search</button>
+    </form>
+    <form action="/action">
+    <div>
+        <input type="checkbox" name="age" id="age"  checked/>
+        <label for="age">I am 18+ </label>
+    </div>
+        <caption>choose you sport</caption>
+        <div>
+            <!-- because of name attribute its chosing only one  -->
+            <input type="radio" name="sports" id="cr" value="cricket"> 
+            <label for="">cricket</label>
+            <input type="radio" name="sports" id="fb" value="Football">
+            <label for="">Football</label>
+            <input type="radio" name="sports" id="hk" value="Hockey">
+            <label for="">Hockey</label>
+        </div>
+        <div>
+            <input type="checkbox" name="sub" id="S"  value="sci"/>
+            <label for="S">Science</label>
+            <input type="checkbox" name="sub" id="Math" value="Math"/>
+            <label for="Math">Math</label>
+            <input type="checkbox" name="sub" id="english" value="eng">
+            <label for="english">English</label>
+
+        </div>
+        <div>
+            <!--for dropdown -->>
+            <label for="profession">choose your profession
+            </label>
+            <select name="Prof" id="profession" >
+                <option>select your option</option>
+                <option value="stu" selected >student</option>
+                <option value="dev">developer</option>
+                <option value="sci">scientist</option>
+                <option value="bio">Biologist</option>
+                <option value="chem">Chemist</option>
+            </select>
+        </div>
+        <div>
+            <label for="">Volume</label>
+            <input type="range" 
+            min="0" 
+            max="100" 
+            name="vol" 
+            step="11"
+            value="50">    
+        </div>
+        <label for="feedback">Share your feedback</label>
+        <div>
+            <textarea name="feedback" id="feedback" placeholder="write here...."></textarea>
+            </textarea>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+    </body>
+</html>

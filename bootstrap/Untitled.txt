@@ -1,0 +1,94 @@
+bootstrap
+- framework based on the concept of flexbox
+- there are pre build components
+-"is a powerful ,feature-packed frontend toolkit - build anything from prototype to production - in minutes."
+
+-makes development faster and easier
+- good choice of prebuilt components
+- good browser compatibility 
+cdn - content delivery network
+
+
+two things we will cover
+components - reusable UI e.g;button,forms
+layouts - overall arrangement of the elements e.g;grid,container
+
+
+LAYOUT :- 
+Container :used to contain , pad , and sometimes center the content within them
+there are different type of containers there with different widths with respect to the size of the screens
+
+
+
+Components :- 
+-Buttons :  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

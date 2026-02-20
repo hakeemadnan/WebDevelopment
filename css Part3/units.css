@@ -1,0 +1,31 @@
+/* h1{
+    border: 2px solid black;
+    width: 33.3%;
+} */
+#out{
+    height: 400px;
+    width: 400px;
+    background-color: red;
+    font-size: 10px;
+
+}
+#in{
+    height: 100px;
+    width: 100px;
+    background-color: greenyellow;
+    font-size: 3em; /*relative to parent fontsize*/
+    padding: 1em; /*relative to font size of the element*/
+}
+button{
+    font-size: 35px;
+    border-radius: 15px;
+    border: 2px solid green ;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+section{
+    font-size: 15px;
+}
+div{
+    font-size: 0.5rem;
+}

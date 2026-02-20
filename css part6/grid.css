@@ -1,0 +1,54 @@
+.container{
+    width: 600px;
+    height: 400px;
+    background-color: red;
+    display: grid; 
+    /* we can use inline grid for the inline placements */
+    /* grid-template-rows: 50px 50px 50px 50px 50px ;
+    grid-template-columns : 250px 100px 100px;  */
+    grid-template-rows: repeat(5,1fr);
+    grid-template-columns: repeat(3,1fr); 
+    /* grid-template-columns: 1fr 1fr 1fr; it is the other way to write it */
+    /* we can use auto sometimes  */
+    /* grid gaps 
+    they define the gaps between the lines */
+    /* row-gap:10px ;
+    column-gap:10px ; */
+    grid-gap: 10px;
+    /* this is a short hand */
+    /* justify-items: center;
+    align-items:center; */
+    place-items: center;
+}
+.item{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    background-color: greenyellow;
+    border: 2px solid black;
+}
+.one{
+    /*grid columns  
+    defines an items starting and ending position inside the columns
+    */
+    /* grid-column-start:1 ;
+    grid-column-end: 3; */
+    /* grid-column:1/3 ; */
+    /* grid-column: 1/span 2; */
+
+    /* grid row   defines an items starting and ending position inside the rows */
+    /* grid-row-start:1 ;
+    grid-row-end: 3;
+    grid-row: 1/3; */
+    /* grid-column: 1/3; */
+
+    /* justify-self: start; */
+    place-self: start;
+}
+.two{
+    /* grid-row-start: 1;
+    grid-row-end: 3; */
+    /* grid-row: 1/3; */
+    /* align-self: end; */
+    place-self: end;
+}

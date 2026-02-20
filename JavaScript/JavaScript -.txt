@@ -1,0 +1,83 @@
+JavaScript -
+LET KEYWORD -introduced in 2015
+there are the reserved keywords for specific works in js
+like the let keyword for the declaring a variable(syntax)
+
+CONST KEYWORD
+values of constants cant be changed with re-assignment and they cant be redeclared
+
+VAR KEYWORD
+old syntax of declaring a variable
+
+age+2 wont work
+age =  age  +2 works in js
+
+Assignment operator
+age = age+1
+age+=1
+etc
+Unary operators
+age = age + 1
+age+=1
+age++ post increment  // age --  post decrement - use then,  change
+++age preincreement  // --age pre decrement  - change ,then use
+
+
+Identifier  rules
+letter ,digits,underscore,dollarsign
+no space
+must begin with a letter also begin dollar
+names are case sensitive
+no reserved words cant be used as a variable
+
+CAMEL CASE
+way of  writing identifiers
+camelCase (JS naming convention)
+snake_case // python
+PascalCase
+
+Boolean in JS
+represents a truth value true or false
+
+Type change of a variable -imp
+WHAT IS TYPESCRIPT
+A SORT OF NEW VERSION OF TYPESCRIPT
+HERE TYPES CANT BE CHANGED
+STATIC TYPE WHERE JS IS DYNAMIC TYPED
+ 
+DESGINED BY MICROSCOFT
+---
+STRING
+string are text or sequence of characters
+let name  =  "Tony stark"
+-
+string indices
+name - tony
+name[0]
+.length
+concatenation
+s1+s2
+
+--
+null and undefined in JS
+-
+undefined
+A variable that has not been assigned a value is of type undefined
+let a
+a
+-
+null
+the null value represents the intentional absence of any object value
+to be explicitly assigned
+
+let a = null
+a will give null as output
+null is a keyword
+
+
+
+---
+console.log()
+to write (log) a message on the console
+
+console.log("adnan mustaq")

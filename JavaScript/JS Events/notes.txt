@@ -1,0 +1,6 @@
+dom events are signal that something has occurred like user inputs or actions
+like form submission etcc
+like a button press
+using inline js is not advised but for some specific cases we can
+onclick
+onmouseenter

@@ -1,0 +1,24 @@
+/* div{
+    height: 300px;
+    width: 300px;
+    background-color: rgba(200, 255, 0, 0.838);
+    transition-duration: 1s;
+    transition-delay: 1s;
+    transition:1s 1s;
+} */
+/* div:hover{
+    background-color: black;
+    border-radius: 50%;
+} */
+div{
+    height: 100px;
+    width: 100px;
+    background-color: #4dff4d;
+    margin: 0 auto;
+    margin-top: 10px;
+    transition: margin-top 2s ease-in 0.2s;
+}
+div:hover{
+    margin-top: 400px;
+    background-color: pink;
+}

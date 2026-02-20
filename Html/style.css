@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    text-decoration: double brown underline;
+    letter-spacing: 5px;
+    font-family:avant garde,didot,sans-serif;
+}
+h3{
+    text-align: start;
+    font-weight: bold;
+    text-decoration:dotted line-through;
+    text-decoration-color: red;
+
+}
+h2{
+    
+    text-decoration: wavy overline;
+    text-decoration-color: orange;
+    font-weight: 800;
+    font-family: impact;
+
+}
+p{
+    text-align: justify;
+    font-weight: 500;
+    line-height: 2.4;
+}
+a{
+    text-decoration: none;
+}
