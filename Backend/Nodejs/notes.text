@@ -1,0 +1,5 @@
+node js - javascript runtime environment
+it is used for server side programming
+it is not a language library or framework
+node REPL -> Read Evaluate print loop
+node is somewhat like the console we use run the code there and we need to write "node" there to go inside the node repl
