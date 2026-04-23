@@ -45,17 +45,21 @@ const checkToken =(req,res,next) =>{
         throw new ExpressError(401,"ACCESS DENIED")
     };
 
-// app.get("/err",(req,res) =>{
-//     abcd=acbd;
-// });
+app.get("/err",(req,res) =>{
+    abcd=acbd;
+});
 
 app.get("/api",checkToken,(req,res) =>{
     res.send("Data");
-
+})
+app.get("/admin",(req,res) =>{
+    throw new ExpressError(403,"Access to admin is forbidden")
 })
 app.use((err,req,res,next) =>{
-    console.log("---------ERROR----------");
-    res.send(err);
+    // console.log("---------ERROR----------");
+    let {status=500,message="Error occured " } = err;// default value 500
+    res.status(status).send(message);
+    // res.send(err);
     // next();//next non error handling middleware
   //  next(err); //calling the next err handling middleware
 })
@@ -68,9 +72,9 @@ app.get("/random",(req,res) =>{
 })
 
 //404
-app.use((req,res)=>{
-    res.send("page not found");
-})
+// app.use((req,res)=>{
+//     res.send("page not found");
+// })
 app.listen(8080,() =>{
     console.log('server listening to port 8080');
 });
